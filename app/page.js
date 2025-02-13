@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Experience from './components/Experience'
 import Offer from './components/Offer'
+import GenoaLife from './components/GenoaLife'
+import Footer from './components/Footer'
  
 
 const Home = () => {
@@ -13,6 +15,8 @@ const Home = () => {
       
       <Experience/>
        <Offer/>
+       <GenoaLife/>
+       <Footer/>
       
     </div>
   )

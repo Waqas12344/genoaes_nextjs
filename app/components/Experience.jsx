@@ -26,7 +26,7 @@ const Experience = () => {
                             <div className='w-full'>
                                 <h4 className='text-primary font-[Roboto] font-[400] text-[24px] leading-[32px] '>Joined by experts with experience in: </h4>
                             </div>
-                            <div className='flex flex-wrap justify-end gap-[12px] md:gap-[35px] lg:gap-[40px]'>
+                            <div className='flex flex-wrap justify-center  md:justify-end gap-[12px] md:gap-[35px] lg:gap-[40px]'>
                                 {
                                     companys.map((item) => (
                                         <div key={item.id} className='flex items-center  '>
@@ -108,21 +108,21 @@ const Experience = () => {
             {/* meet your professor section  */}
 
             <div className='flex flex-col-reverse lg:flex-row h-auto lg:h-[500px] px-[16px] md:px-[24px] lg:px-[40px] mt-[64px] lg:mt-[80px]'>
-                <div className='p-[40px] bg-[#FAF5E2] w-f lg:w-[35%] h-full flex flex-col justify-between '>
+                <div className='p-[16px] md:p-[24px] lg:p-[40px] bg-[#FAF5E2] w-f lg:w-[35%] h-full flex flex-col justify-between '>
                     <div>
-                        <h3 className='font-[roboto] text-[40px] text-blackSecondary leading-[48px] font-[300]'>Meet your professor</h3>
+                        <h3 className='font-[roboto] text-[32px] md:text-[40px] text-blackSecondary leading-[32px] md:leading-[48px] font-[300]'>Meet your professor</h3>
                     </div>
-                    <div className='p-[12px] border-primary border-l-[1px] mt-[32px]'>
-                        <p className='font-[roboto] text-[20px] leading-[28px] lg:text-[18px] lg:leading-[24px] font-[300] text-blackSecondary'>
+                    <div className='pl-[12px] border-primary border-l-[1px] mt-[32px]'>
+                        <p className='font-[roboto] text-[16px] leading-[22px] md:text-[20px] md:leading-[28px] lg:text-[18px] lg:leading-[24px] font-[300] text-blackSecondary'>
                         At Georgetown, we believe in entrepreneurship for the common good. <span className=' font-[500] '>
                         Our partnership with Genoa Entrepreneurship School aligns our values perfectly, supporting emerging entrepreneurs worldwide.
                         </span>
                         </p>
-                        <div className='flex items-center gap-[16px] mt-[35px]'>
+                        <div className='flex items-center gap-[8px] md:gap-[16px] mt-[24px] md:mt-[35px]'>
                             <div><img width={'100px'} src="/G-uni.svg" alt="" /></div>
                             <div> 
-                                <p className='font-[roboto] font-[400] text-[20px] leading-[24px]'>Shye Gilad</p>
-                                <p className='font-[roboto] font-[300] text-[16px] leading-[20px] text-blackSecondary'>Professor at Georgetown university</p>
+                                <p className='font-[roboto] font-[400] text-[18px] md:text-[20px] leading-[24px]'>Shye Gilad</p>
+                                <p className='font-[roboto] font-[300] text-[14px]  leading-[18px] md:text-[16px] md:leading-[20px] text-blackSecondary'>Professor at Georgetown university</p>
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className="fixed top-0 left-0 w-full z-[50] px-[16px] md:px-[24px] lg:px-[40px]">
+        <div className="absolute top-0 left-0 w-full z-[50] px-[16px] md:px-[24px] lg:px-[40px]">
             <div className="max-w-[1360px] h-[81px] mx-auto border-b-[1px] border-secondary flex items-center justify-between">
 
                 {/* Logo */}
